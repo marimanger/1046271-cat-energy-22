@@ -36,37 +36,55 @@
       <h1 class="form__title">Подбор программы</h1>
       <p class="form__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
       <fieldset class="form__fieldset">
-          <label class="form__label" for="username">Имя*</label>
-          <input class="form__text" type="text" name="username" id="username" placeholder="Барсик" required>
-          <label class="form__label" for="weight">Вес (кг)*</label>
-          <input class="form__text" type="text" name="weight" id="weight" placeholder="7" required>
-          <label class="form__label" for="age">Возраст (лет)</label>
-          <input class="form__text" type="text" name="age" id="age" placeholder="7">
+        <label class="form__label" for="username">Имя*</label>
+        <input class="form__text" type="text" name="username" id="username" placeholder="Барсик" required>
+        <label class="form__label" for="weight">Вес (кг)*</label>
+        <input class="form__text" type="text" name="weight" id="weight" placeholder="7" required>
+        <label class="form__label" for="age">Возраст (лет)</label>
+        <input class="form__text" type="text" name="age" id="age" placeholder="7">
       </fieldset>
+
       <fieldset class="form__fieldset">
-        <input class="form__radio"  type="radio" name="weight_loss" id="slim" tabindex="0" checked>
+        <input class="form__radio" type="radio" name="weight_loss" id="slim" checked>
         <label class="form__label" for="slim">Похудение</label>
-        <input class="form__radio" type="radio" name="weight_gain" id="fat" tabindex="0">
+        <input class="form__radio" type="radio" name="weight_gain" id="fat">
         <label class="form__label" for="fat">Набор массы</label>
-        <input class="form__radio"  type="radio" name="need-help" id="help" tabindex="0">
+        <input class="form__radio" type="radio" name="need-help" id="help">
         <label class="form__label" for="help">Не знаю (нужен ваш совет)</label>
       </fieldset>
+
       <fieldset class="form__fieldset">
         <legend class="form__legend">Контактные данныe (владельца кота)</legend>
         <label class="form_label">E-mail:*</label>
-        <input class="form__contacts--email" type="email" name="user_email" id="email" placeholder="kuklachev@gmail.com" required>
+        <input class="form__text--email" type="email" name="user_email" id="email" placeholder="kuklachev@gmail.com"
+          required>
         <label class="form_label">Телефон:*</label>
-        <input class="form__contacts--phone" type="tel" name="user_phone" id="phone" placeholder="8 (960) 900-60-90" required>
+        <input class="form__text--phone" type="tel" name="user_phone" id="phone" placeholder="8 (960) 900-60-90"
+          required>
       </fieldset>
 
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Комментарий</legend>
+        <textarea class="form__comment" id="comment" name="comment"
+          placeholder="Расскажите обо всех повадках кота"></textarea>
+      </fieldset>
 
-
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">Дополнительно</legend>
+        <input class="form__checkbox" type="checkbox" name="sugarfree" id="sugarfree" checked>
+        <label class="form__label" for="sugarfree">Сахарозаменитель</label>
+        <input class="form__checkbox" type="checkbox" name="water" id="water">
+        <label class="form__label" for="water">Питьевая вода</label>
+        <input class="form__checkbox" type="checkbox" name="milk" id="milk">
+        <label class="form__label" for="milk">Молоко</label>
+        <input class="form__checkbox" type="checkbox" name="vitamins" id="vitamins">
+        <label class="form__label" for="vitamins">Витамины</label>
+      </fieldset>
+      <div class="form__button-wrapper">
+      <button class="button" type="submit" aria-label="Отправить заявку на подбор программы">Отправить заявку</button>
+      <span class="form__required-fields">* — Обязательные поля</span>
+      </div>
     </form>
-
-
-
-
-
 
     <address class="contacts">
       <div class="contacts__wrapper">
