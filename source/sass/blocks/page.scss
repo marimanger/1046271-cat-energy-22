@@ -1,0 +1,14 @@
+
+.page__body {
+  min-width: 360px;
+  margin: 0;
+  padding: 0, 20px;
+  background: $basic-white;
+  font-family: $font-oswald;
+  color: $basic-black;
+  box-sizing: border-box;
+}
+
+.page {
+  height: 100%;
+}

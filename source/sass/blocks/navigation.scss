@@ -1,0 +1,34 @@
+
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+.nav__list {
+  list-style: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $basic-black;
+}
+
+.nav__item {
+  border-top: 1px solid $grey-border;
+  height: 65px;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
+}
+
+.nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
