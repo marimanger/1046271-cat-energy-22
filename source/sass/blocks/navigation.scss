@@ -7,13 +7,13 @@
 .nav__list {
   list-style: none;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
   color: $basic-black;
 }
 
 .nav__item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
   border-top: 1px solid $grey-border;
   height: 65px;
   text-align: center;
@@ -31,4 +31,3 @@
   text-decoration: none;
   color: inherit;
 }
-
