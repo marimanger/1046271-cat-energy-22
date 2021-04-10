@@ -1,0 +1,40 @@
+.header {
+  border-bottom: $grey-border;
+}
+
+.logo-image {
+  width: 34px;
+  height: 38px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.logo-name {
+  width: 101px;
+  height: 18px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.nav__toggle {
+  width: 24px;
+  height: 24px;
+  background: url("../img/header/sandwich-menu.svg") 50% 50% no-repeat;
+  border: none;
+
+  // &--active {
+  //   background: url("../img/header/close-menu.svg") 50% 50% no-repeat;
+  // }
+}

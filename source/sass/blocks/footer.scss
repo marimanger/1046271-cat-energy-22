@@ -1,0 +1,22 @@
+.footer__wrapper {
+  background-color: $basic-grey;
+}
+
+.footer__social-list {
+  list-style: none;
+  border-top: $grey-bg-1 solid 1pt;
+}
+
+.footer__copyright {
+  border-top: $grey-bg-1 solid 1pt;
+}
+
+.footer__copyright-name {
+  color: $special-dark-grey;
+  font-family: $font-arial;
+  font-weight: $base-font-size;
+
+  &:active {
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,25 @@
+.example__description-title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: $base-font-size;
+}
+
+.example__description-story {
+  font-family: $font-arial;
+  color: $special-dark-grey;
+}
+
+.example__numbers-name {
+  font-family: $font-arial;
+  font-size: 12px;
+  color: $special-dark-grey;
+}
+
+.example__numbers-result {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.example__numbers-expenses {
+  text-transform: uppercase;
+}

@@ -1,0 +1,30 @@
+.button {
+  border-style: none;
+  background-color: $basic-green;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-white;
+
+
+  &:hover {
+    background-color: $green-hover;
+  }
+
+  &:active {
+    color: rgba(255, 253, 253, 0.3);
+  }
+}
+
+&--secondary {
+  background-color: $basic-grey;
+  color: $basic-dark-grey;
+}
+
+&:hover {
+  background-color: $special-light-grey;
+}
+
+&:active {
+  color: rgba(68, 68, 68, 0.3);
+}

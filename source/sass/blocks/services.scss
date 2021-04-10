@@ -1,0 +1,30 @@
+.services__wrapper-slim {
+  background-color: $special-light-grey;
+}
+
+.services__wrapper-pro {
+  background-color: $special-light-grey;
+}
+
+.services__header {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: $base-font-size;
+}
+
+.services__text {
+  font-family: $font-arial;
+  color: $special-dark-grey;
+  border-bottom: $grey-bg-1 solid 1pt;
+}
+
+.services__link {
+  color: $basic-black;
+  text-transform: uppercase;
+  font-size: 16px;
+
+  &:active {
+    opacity: 0.3;
+  }
+}
