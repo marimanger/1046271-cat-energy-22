@@ -1,5 +1,9 @@
-.footer__wrapper {
+.footer {
   background-color: $basic-grey;
+}
+
+.footer__wrapper {
+  @include wrapper;
 }
 
 .footer__social-list {

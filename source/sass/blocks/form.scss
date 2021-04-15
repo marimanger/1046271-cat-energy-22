@@ -1,3 +1,7 @@
+.form {
+  @include wrapper;
+}
+
 .form__subtitle {
   text-transform: uppercase;
 }

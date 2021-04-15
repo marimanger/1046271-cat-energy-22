@@ -1,8 +1,10 @@
 .header {
+  padding-top: 20px;
   border-bottom: $grey-border;
+  display: grid;
 }
 
-.logo-image {
+.header__logo-image {
   width: 34px;
   height: 38px;
 
@@ -13,9 +15,13 @@
   &:active {
     opacity: 0.6;
   }
+
+  @media (min-width: $tablet) {
+    height: 50px;
+  }
 }
 
-.logo-name {
+.header__logo-name {
   width: 101px;
   height: 18px;
 
@@ -26,15 +32,4 @@
   &:active {
     opacity: 0.6;
   }
-}
-
-.nav__toggle {
-  width: 24px;
-  height: 24px;
-  background: url("../img/header/sandwich-menu.svg") 50% 50% no-repeat;
-  border: none;
-
-  // &--active {
-  //   background: url("../img/header/close-menu.svg") 50% 50% no-repeat;
-  // }
 }

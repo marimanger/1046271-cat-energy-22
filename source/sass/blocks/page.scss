@@ -1,3 +1,7 @@
+* {
+  outline: solid 1px green;
+}
+
 .page {
   height: 100%;
 }
@@ -9,4 +13,5 @@
   font-weight: $base-font-size;
   color: $basic-black;
   box-sizing: border-box;
+  min-width: 320px;
 }

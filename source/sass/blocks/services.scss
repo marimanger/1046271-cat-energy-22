@@ -1,3 +1,7 @@
+.services__wrapper {
+  @include wrapper;
+}
+
 .services__wrapper-slim {
   background-color: $special-light-grey;
 }

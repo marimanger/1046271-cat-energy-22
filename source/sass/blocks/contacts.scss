@@ -1,3 +1,7 @@
+.contacts__wrapper {
+  @include wrapper;
+}
+
 .contacts {
   font-style: normal;
 }

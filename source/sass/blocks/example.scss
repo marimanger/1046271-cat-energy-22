@@ -1,3 +1,7 @@
+.example__wrapper {
+  @include wrapper;
+}
+
 .example__description-title {
   font-size: 36px;
   line-height: 40px;
