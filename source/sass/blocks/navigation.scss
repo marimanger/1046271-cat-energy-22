@@ -2,6 +2,15 @@
 .nav {
   padding: 0;
   margin: 0;
+
+  @media (min-width: $tablet) {
+    display: none;
+  }
+
+  @media (min-width: $desktop) {
+    display: grid;
+    grid-column: 2 / 3;
+  }
 }
 
 .nav__list {
@@ -10,12 +19,22 @@
   color: $basic-black;
   margin: 0;
   padding: 0;
+
+  @media (min-width: $desktop) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 .nav__item {
   font-weight: 500;
   font-size: 20px;
-  line-height: 20px;
+
+  @media (min-width: $desktop) {
+    font-weight: 400;
+  }
 }
 
 .nav__link {
@@ -33,15 +52,8 @@
   &:active {
     opacity: 0.2;
   }
-}
 
-.nav__toggle {
-  width: 24px;
-  height: 24px;
-  background: url("../img/header/sandwich-menu.svg") 50% 50% no-repeat;
-  border: none;
-
-  // &--active {
-  //   background: url("../img/header/close-menu.svg") 50% 50% no-repeat;
-  // }
+  @media (min-width: $desktop) {
+    padding: 15px;
+  }
 }
