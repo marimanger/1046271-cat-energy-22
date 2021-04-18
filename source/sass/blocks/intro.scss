@@ -5,9 +5,14 @@
 .intro {
   color: $basic-white;
   text-align: center;
-  background: url("../img/intro/intro-can.png") 50% 175px no-repeat,
-    url("../img/intro/cat-background.jpg") 50% 50%/cover no-repeat;
+  background: url("../img/intro/intro-can.png") 50% 165px no-repeat,
+    url("../img/intro/cat-background.jpg") 50% 0 /contain no-repeat;
   min-height: 302px;
+
+  @media (min-width: $tablet) {
+    background: url("../img/intro/intro-can.png") 50% 10px / contain no-repeat;
+    min-height: 609px;
+  }
 }
 
 
@@ -17,6 +22,13 @@
   font-weight: $base-font-size;
   margin: 0;
   padding: 25px;
+
+  @media (min-width: $tablet) {
+    color: $basic-black;
+    text-align: left;
+    font-size: 60px;
+    line-height: 1em;
+  }
 }
 
 .intro__slogan {
@@ -24,4 +36,12 @@
   text-transform: uppercase;
   line-height: 14px;
   margin: 0;
+  padding-bottom: 298px;
+
+  @media (min-width: $tablet) {
+    color: $basic-black;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 50px;
+  }
 }

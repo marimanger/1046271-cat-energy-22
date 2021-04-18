@@ -3,6 +3,8 @@
   border-bottom: $grey-border;
 
   @media (min-width: $tablet) {
+    display: grid;
+    grid-column-template: 1fr 1fr;
     border-bottom: none;
   }
 
@@ -24,7 +26,7 @@
   align-content: space-evenly;
   grid-template-columns: 1fr 1fr 1fr;
 
-  @media (min-width: $desktop) {
+  @media (min-width: $tablet) {
     grid-column: 1 / 2;
   }
 }
