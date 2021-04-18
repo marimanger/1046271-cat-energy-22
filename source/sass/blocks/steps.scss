@@ -12,4 +12,24 @@
   font-family: $font-arial;
   color: $special-dark-grey;
   list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $tablet) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 80px;
+  }
+
+  @media (min-width: $desktop) {
+    display: grid;
+    grid-template-columns: repeat(4, 245px);
+    column-gap: 80px;
+    justify-content: space-between;
+  }
+}
+
+.steps__item-description {
+  width: 245px;
 }

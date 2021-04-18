@@ -1,5 +1,14 @@
-.services__wrapper {
+.services {
   @include wrapper;
+}
+
+.services__wrapper {
+  @media (min-width: $desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+    grid-auto-flow: row;
+  }
 }
 
 .services__wrapper-slim {

@@ -3,12 +3,22 @@
 }
 
 .footer__wrapper {
+  display: grid;
+
   @include wrapper;
+
+  @media (min-width: $tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .footer__social-list {
   list-style: none;
   border-top: $grey-bg-1 solid 1pt;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0;
 }
 
 .footer__copyright {
@@ -23,4 +33,9 @@
   &:active {
     opacity: 0.3;
   }
+}
+
+.footer__logo {
+  text-align: center;
+  padding-top: 25px;
 }

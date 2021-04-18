@@ -1,9 +1,12 @@
-.contacts__wrapper {
+.contacts {
+  font-style: normal;
+
   @include wrapper;
 }
 
-.contacts {
-  font-style: normal;
+.contacts__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .contacts__collaboration-slogan {

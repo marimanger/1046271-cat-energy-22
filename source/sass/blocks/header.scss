@@ -4,13 +4,13 @@
 
   @media (min-width: $tablet) {
     display: grid;
-    grid-column-template: 1fr 1fr;
+    grid-column-template: repeat(2, 1fr);
     border-bottom: none;
   }
 
   @media (min-width: $desktop) {
     display: grid;
-    grid-column-template: 1fr 1fr;
+    grid-column-template: repeat(2, 1fr);
   }
 }
 
@@ -24,7 +24,7 @@
   display: grid;
   justify-content: space-around;
   align-content: space-evenly;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
 
   @media (min-width: $tablet) {
     grid-column: 1 / 2;
