@@ -9,15 +9,16 @@
 
 <body class="page__body">
   <header class="header">
-    <a class="page-logo">
-      <img class="logo-image" src="./img/logo.svg" width="33" height="38" alt="Кэт Энерджи логотип">
-      <img class="logo-name" src="./img/logo-name.svg" width="101" height="18"
-        alt="Кэт Энерджи логотип текст">
-    </a>
-    <nav class="nav">
-      <button class="nav__toggle nav__toggle--active" type="button">
+    <div class="header__wrapper">
+      <a class="header__logo">
+        <img class="header__logo-image" src="./img/logo.svg" width="33" height="38" alt="Кэт Энерджи логотип">
+        <img class="header__logo-name" src="./img/logo-name.svg" width="101" height="18"
+          alt="Кэт Энерджи логотип текст">
+      </a>
+      <button class="header__toggle header__toggle--active" type="button">
         <span class="visually-hidden">Показать меню</span>
-      </button>
+      </div>
+    <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
           <a class="nav__link" href="./index.html">Главная</a>
@@ -59,7 +60,7 @@
                 <td class="catalogue__cell-value">700 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить куриный корм за 700р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить куриный корм за 700р в корзину">Заказать</a>
         </article>
 
           <article class="catalogue__item">
@@ -84,7 +85,7 @@
                 <td class="catalogue__cell-value">1000 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить куриный корм за 1000р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить куриный корм за 1000р в корзину">Заказать</a>
           </article>
 
           <article class="catalogue__item">
@@ -109,7 +110,7 @@
                 <td class="catalogue__cell-value">700 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить рыбный корм за 700р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить рыбный корм за 700р в корзину">Заказать</a>
           </article>
 
           <article class="catalogue__item">
@@ -134,7 +135,7 @@
                 <td class="catalogue__cell-value">1000 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить рыбный корм за 1000р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить рыбный корм за 1000р в корзину">Заказать</a>
           </article>
 
           <article class="catalogue__item">
@@ -159,7 +160,7 @@
                 <td class="catalogue__cell-value">400 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить гречневый корм за 400р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить гречневый корм за 400р в корзину">Заказать</a>
           </article>
 
           <article class="catalogue__item">
@@ -184,7 +185,7 @@
                 <td class="catalogue__cell-value">700 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить гречневый корм за 700р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить гречневый корм за 700р в корзину">Заказать</a>
           </article>
 
           <article class="catalogue__item">
@@ -209,7 +210,7 @@
                 <td class="catalogue__cell-value">500 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить рисовый корм за 500р в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить рисовый корм за 500р в корзину">Заказать</a>
           </article>
 
         <div class="catalogue__show-more">
@@ -225,49 +226,49 @@
             <a class="catalogue_name-link" href="#">
               <h3 class="catalogue__item-name">Сахарозаменитель</h3>
             </a>
-            <table class="catalogue__table">
+            <table class="catalogue__table catalogue__table--additional">
               <tr class="catalogue__table-row">
                 <th class="catalogue__cell-header">1 упаковка (100 г)</th>
                 <td class="catalogue__cell-value">200 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить сахарозаменитель в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить сахарозаменитель в корзину">Заказать</a>
           </article>
           <article class="catalogue__item">
             <a class="catalogue_name-link" href="#">
               <h3 class="catalogue__item-name">Питьевая вода</h3>
             </a>
-            <table class="catalogue__table">
+            <table class="catalogue__table catalogue__table--additional">
               <tr class="catalogue__table-row">
                 <th class="catalogue__cell-header">5 литров </th>
                 <td class="catalogue__cell-value">50 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить питьевую воду в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить питьевую воду в корзину">Заказать</a>
           </article>
           <article class="catalogue__item">
             <a class="catalogue_name-link" href="#">
               <h3 class="catalogue__item-name">Молоко</h3>
             </a>
-            <table class="catalogue__table">
+            <table class="catalogue__table catalogue__table--additional">
               <tr class="catalogue__table-row">
                 <th class="catalogue__cell-header">1 литр </th>
                 <td class="catalogue__cell-value">100 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить 1л молока в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить 1л молока в корзину">Заказать</a>
           </article>
           <article class="catalogue__item">
             <a class="catalogue_name-link" href="#">
               <h3 class="catalogue__item-name">Витамины</h3>
             </a>
-            <table class="catalogue__table">
+            <table class="catalogue__table catalogue__table--additional">
               <tr class="catalogue__table-row">
                 <th class="catalogue__cell-header">1 упаковка</th>
                 <td class="catalogue__cell-value">300 P.</td>
               </tr>
             </table>
-            <a class="button" href="#" aria-label="Добавить 1 упаковку витамин в корзину">Заказать</a>
+            <a class="button button--order" href="#" aria-label="Добавить 1 упаковку витамин в корзину">Заказать</a>
           </article>
       </section>
     </div>
