@@ -20,6 +20,7 @@
   &--secondary {
     background-color: $basic-grey;
     color: $basic-dark-grey;
+    grid-column: 1/-1;
 
 
     &:hover {
