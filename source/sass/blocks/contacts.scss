@@ -1,12 +1,28 @@
-.contacts {
-  font-style: normal;
 
+.contacts {
   @include wrapper;
+
+  &--catalogue-bg {
+    background-color: $basic-grey;
+  }
+
+  @media (min-width: $desktop) {
+    background-color: $basic-white;
+  }
 }
 
 .contacts__wrapper {
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
+  @media (min-width: $desktop) {
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    margin-top: 55px;
+  }
 }
 
 .contacts__collaboration-slogan {

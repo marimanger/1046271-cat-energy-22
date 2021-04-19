@@ -46,7 +46,6 @@
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
-      justify-content: space-between;
     }
   }
 }
@@ -138,8 +137,17 @@
   line-height: 24px;
 }
 
-// .catalogue__show-more {
-//   @media (min-width: $tablet) {
-//     min-width: ;
-//   }
-// }
+.catalogue__gift {
+  background: url("../img/catalogue/gift-photo.jpg") 50% 50%/cover no-repeat;
+  min-width: 280px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-top: 10px;
+}
+
+.catalogue__gift-message {
+  font-family: $font-arial;
+  font-weight: $base-font-size;
+  color: $basic-white;
+  text-align: center;
+}
