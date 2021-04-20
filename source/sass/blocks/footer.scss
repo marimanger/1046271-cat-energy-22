@@ -36,10 +36,12 @@
 .footer__copyright {
   border-top: $grey-bg-1 solid 1pt;
 
+
   @media (min-width: $tablet) {
     border: none;
   }
 }
+
 
 .footer__copyright-name {
   color: $special-dark-grey;

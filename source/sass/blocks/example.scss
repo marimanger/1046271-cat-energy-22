@@ -77,4 +77,9 @@
   width: 311px;
   margin-left: auto;
   margin-right: auto;
+
+  @media (min-width: $desktop) {
+    grid-column: 2/ -1;
+    grid-row: 2 / -2;
+  }
 }

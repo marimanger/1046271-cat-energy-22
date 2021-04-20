@@ -1,5 +1,7 @@
 
 .contacts {
+  font-style: normal;
+
   @include wrapper;
 
   &--catalogue-bg {
@@ -8,6 +10,15 @@
 
   @media (min-width: $desktop) {
     background-color: $basic-white;
+  }
+}
+
+.catalogue_additional-gift {
+  @media (min-width: $desktop) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    margin-bottom: 50px;
   }
 }
 
