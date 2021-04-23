@@ -9,15 +9,16 @@
 
 <body class="page__body">
   <header class="header">
-    <a class="page-logo">
-      <img class="logo-image" src="./img/logo.svg" width="33" height="38" alt="Кэт Энерджи логотип">
-      <img class="logo-name" src="./img/logo-name.svg" width="101" height="18"
-        alt="Кэт Энерджи логотип текст">
-    </a>
-    <nav class="nav">
-      <button class="nav__toggle nav__toggle--active" type="button">
+    <div class="header__wrapper">
+      <a class="header__logo">
+        <img class="header__logo-image" src="./img/logo.svg" width="33" height="38" alt="Кэт Энерджи логотип">
+        <img class="header__logo-name" src="./img/logo-name.svg" width="101" height="18"
+          alt="Кэт Энерджи логотип текст">
+      </a>
+      <button class="header__toggle header__toggle--active" type="button">
         <span class="visually-hidden">Показать меню</span>
-      </button>
+    </div>
+    <nav class="nav">
       <ul class="nav__list">
         <li class="nav__item">
           <a class="nav__link" href="./index.html">Главная</a>
@@ -38,244 +39,250 @@
         <h1 class="intro__title intro__title--catalogue ">Каталог продукции</h1>
 
         <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy PRO 500 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/pro_chicken_500.png" width="68" height="86"
-                alt="Оранжевая пачка корма куриный вкус 500г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">500 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Курица</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">700 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить куриный корм за 700р в корзину">Заказать</a>
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy PRO 500 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/pro_chicken_500.png" width="68" height="86"
+              alt="Оранжевая пачка корма куриный вкус 500г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">500 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Курица</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">700 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить куриный корм за 700р в корзину">Заказать</a>
         </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy PRO 1000 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/pro_chicken_1000.png" width="84" height="100"
-                alt="Оранжевая пачка корма куриный вкус 1000г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">1000 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Курица</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">1000 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить куриный корм за 1000р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy PRO 1000 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/pro_chicken_1000.png" width="84" height="100"
+              alt="Оранжевая пачка корма куриный вкус 1000г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">1000 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Курица</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">1000 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить куриный корм за 1000р в корзину">Заказать</a>
+        </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy PRO 500 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/pro_fish_500.png" width="68" height="86"
-                alt="Зеленая пачка корма рыбный вкус 500г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">500 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Рыба</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">700 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить рыбный корм за 700р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy PRO 500 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/pro_fish_500.png" width="68" height="86"
+              alt="Зеленая пачка корма рыбный вкус 500г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">500 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Рыба</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">700 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить рыбный корм за 700р в корзину">Заказать</a>
+        </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy PRO 1000 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/pro_fish_1000.png" width="84" height="100"
-                alt="Зеленая пачка корма рыбный вкус 1000г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">1000 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Рыба</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">1000 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить рыбный корм за 1000р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy PRO 1000 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/pro_fish_1000.png" width="84" height="100"
+              alt="Зеленая пачка корма рыбный вкус 1000г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">1000 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Рыба</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">1000 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить рыбный корм за 1000р в корзину">Заказать</a>
+        </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy Slim 500 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/slim_buckwheat_500.png" width="68" height="86"
-                alt="Синяя пачка корма вкус гречки 500г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">500 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Гречка</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">400 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить гречневый корм за 400р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy Slim 500 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/slim_buckwheat_500.png" width="68" height="86"
+              alt="Синяя пачка корма вкус гречки 500г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">500 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Гречка</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">400 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить гречневый корм за 400р в корзину">Заказать</a>
+        </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy Slim 1000 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/slim_buckwheat_1000.png" width="84" height="100"
-                alt="Синяя пачка корма вкус гречки 1000г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">1000 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Рыба</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">700 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить гречневый корм за 700р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy Slim 1000 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/slim_buckwheat_1000.png" width="84" height="100"
+              alt="Синяя пачка корма вкус гречки 1000г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">1000 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Рыба</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">700 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить гречневый корм за 700р в корзину">Заказать</a>
+        </article>
 
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Cat Energy Slim 500 г</h3>
-            </a>
-            <a class="catalogue__image-link" href="#">
-              <img class="catalogue__image" src="./img/catalogue/slim_rice_500.png" width="68" height="86"
-                alt="Фиолетовая пачка корма вкус риса 500г">
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Масса</th>
-                <td class="catalogue__cell-value">500 г</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Вкус</th>
-                <td class="catalogue__cell-value">Рис</td>
-              </tr>
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">Цена</th>
-                <td class="catalogue__cell-value">500 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить рисовый корм за 500р в корзину">Заказать</a>
-          </article>
+        <article class="catalogue__item">
+          <a class="catalogue_name-link" href="#">
+            <h3 class="catalogue__item-name">Cat Energy Slim 500 г</h3>
+          </a>
+          <a class="catalogue__image-link" href="#">
+            <img class="catalogue__image" src="./img/catalogue/slim_rice_500.png" width="68" height="86"
+              alt="Фиолетовая пачка корма вкус риса 500г">
+          </a>
+          <table class="catalogue__table">
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Масса</th>
+              <td class="catalogue__cell-value">500 г</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Вкус</th>
+              <td class="catalogue__cell-value">Рис</td>
+            </tr>
+            <tr class="catalogue__table-row">
+              <th class="catalogue__cell-header">Цена</th>
+              <td class="catalogue__cell-value">500 P.</td>
+            </tr>
+          </table>
+          <a class="button button--order" href="#" aria-label="Добавить рисовый корм за 500р в корзину">Заказать</a>
+        </article>
 
-        <div class="catalogue__show-more">
-          <h3 class="catalogue__more-name ">Показать еще 100500 товаров</h3>
-          <p class="catalogue__item-promo catalogue__table-row">На самом деле вкусов гораздо больше!</p>
+        <div class=" catalogue__item catalogue_item--show-more">
+          <h3 class="catalogue__item-name catalogue__item-name--more">Показать еще 100500 товаров</h3>
+          <p class="catalogue__item--promo catalogue__cell-header  catalogue__cell-header--promo">На самом деле вкусов
+            гораздо больше!</p>
           <a class="button button--secondary" href="#" aria-label="Открыть весь список товаров">Показать Все</a>
         </div>
       </section>
 
       <section class="catalogue__additional">
         <h2 class="catalogue__additional-title special-title">Дополнительные товары</h2>
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Сахарозаменитель</h3>
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">1 упаковка (100 г)</th>
-                <td class="catalogue__cell-value">200 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить сахарозаменитель в корзину">Заказать</a>
-          </article>
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Питьевая вода</h3>
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">5 литров </th>
-                <td class="catalogue__cell-value">50 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить питьевую воду в корзину">Заказать</a>
-          </article>
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Молоко</h3>
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">1 литр </th>
-                <td class="catalogue__cell-value">100 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить 1л молока в корзину">Заказать</a>
-          </article>
-          <article class="catalogue__item">
-            <a class="catalogue_name-link" href="#">
-              <h3 class="catalogue__item-name">Витамины</h3>
-            </a>
-            <table class="catalogue__table">
-              <tr class="catalogue__table-row">
-                <th class="catalogue__cell-header">1 упаковка</th>
-                <td class="catalogue__cell-value">300 P.</td>
-              </tr>
-            </table>
-            <a class="button" href="#" aria-label="Добавить 1 упаковку витамин в корзину">Заказать</a>
-          </article>
+        <div class="catalogue_additional-gift">
+          <div class="catalogue_additional-wrapper">
+            <article class="catalogue__item catalogue__item--special ">
+              <a class="catalogue_name-link" href="#">
+                <h3 class="catalogue__item-name catalogue__item-name--additional">Сахарозаменитель</h3>
+              </a>
+              <table class="catalogue__table catalogue__table--additional">
+                <tr class="catalogue__table-row">
+                  <th class="catalogue__cell-header">1 упаковка (100 г)</th>
+                  <td class="catalogue__cell-value">200 P.</td>
+                </tr>
+              </table>
+              <a class="button button--order" href="#" aria-label="Добавить сахарозаменитель в корзину">Заказать</a>
+            </article>
+            <article class="catalogue__item catalogue__item--special">
+              <a class="catalogue_name-link" href="#">
+                <h3 class="catalogue__item-name catalogue__item-name--additional">Питьевая вода</h3>
+              </a>
+              <table class="catalogue__table catalogue__table--additional">
+                <tr class="catalogue__table-row">
+                  <th class="catalogue__cell-header">5 литров </th>
+                  <td class="catalogue__cell-value">50 P.</td>
+                </tr>
+              </table>
+              <a class="button button--order" href="#" aria-label="Добавить питьевую воду в корзину">Заказать</a>
+            </article>
+            <article class="catalogue__item catalogue__item--special">
+              <a class="catalogue_name-link" href="#">
+                <h3 class="catalogue__item-name catalogue__item-name--additional">Молоко</h3>
+              </a>
+              <table class="catalogue__table catalogue__table--additional">
+                <tr class="catalogue__table-row">
+                  <th class="catalogue__cell-header catalogue__cell-header--additional">1 литр </th>
+                  <td class="catalogue__cell-value">100 P.</td>
+                </tr>
+              </table>
+              <a class="button button--order" href="#" aria-label="Добавить 1л молока в корзину">Заказать</a>
+            </article>
+            <article class="catalogue__item catalogue__item--special">
+              <a class="catalogue_name-link" href="#">
+                <h3 class="catalogue__item-name catalogue__item-name--additional">Витамины</h3>
+              </a>
+              <table class="catalogue__table catalogue__table--additional">
+                <tr class="catalogue__table-row">
+                  <th class="catalogue__cell-header">1 упаковка</th>
+                  <td class="catalogue__cell-value">300 P.</td>
+                </tr>
+              </table>
+              <a class="button button--order" href="#" aria-label="Добавить 1 упаковку витамин в корзину">Заказать</a>
+            </article>
+          </div>
+          <div class="catalogue__gift catalogue__gift--image">
+            <h3 class="catalogue__gift-message">Закажите все и получите чехол для кота в подарок!</h3>
+          </div>
+        </div>
       </section>
     </div>
-    <section class="gift gift--image">
-      <h3 class="gift__message gift__message--icon">Закажите все и получите чехол для кота в подарок!</h3>
-    </section>
 
-    <address class="contacts">
+
+    <address class="contacts contacts--catalogue-bg">
       <div class="contacts__wrapper">
         <p class="contacts__collaboration-slogan">Приглашаем к сотрудничеству дилеров!</p>
         <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>

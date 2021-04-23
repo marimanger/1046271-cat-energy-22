@@ -1,15 +1,41 @@
+.intro__wrapper {
+  @include wrapper;
+}
+
 .intro {
   color: $basic-white;
-  background-color: $basic-green;
-  background-image: url("../img/intro/cat-background.jpg");
-  background-repeat: no-repeat;
-  height: auto;
+  text-align: center;
+  background: url("../img/intro/intro-can.png") 50% 165px no-repeat,
+    url("../img/intro/cat-background.jpg") 50% 0 /contain no-repeat;
+  min-height: 302px;
+
+  @media (min-width: $tablet) {
+    background: url("../img/intro/intro-can.png") 50% 10px / contain no-repeat;
+    min-height: 609px;
+  }
 }
+
 
 .intro__title {
   font-size: 36px;
   line-height: 36px;
   font-weight: $base-font-size;
+  margin: 0;
+  padding: 25px;
+
+  @media (min-width: $tablet) {
+    color: $basic-black;
+    text-align: left;
+    font-size: 60px;
+    line-height: 1em;
+    padding-right: 360px;
+  }
+
+  @media (min-width: $desktop) {
+    &--catalogue {
+      grid-column: 1/-1;
+    }
+  }
 }
 
 .intro__slogan {
@@ -17,5 +43,12 @@
   text-transform: uppercase;
   line-height: 14px;
   margin: 0;
-  margin-top: 25px;
+  padding-bottom: 298px;
+
+  @media (min-width: $tablet) {
+    color: $basic-black;
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 50px;
+  }
 }
