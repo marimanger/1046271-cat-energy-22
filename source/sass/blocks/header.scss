@@ -17,15 +17,11 @@
 
 .header__wrapper {
   padding-top: 10px;
-  display: grid;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__logo {
-  display: grid;
-  justify-content: space-around;
-  align-content: space-evenly;
-  grid-template-columns: repeat(3, 1fr);
-
   @media (min-width: $tablet) {
     grid-column: 1 / 2;
   }

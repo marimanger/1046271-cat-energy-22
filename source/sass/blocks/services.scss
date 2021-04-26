@@ -3,6 +3,8 @@
 }
 
 .services__wrapper {
+  display: block;
+
   @media (min-width: $desktop) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -13,10 +15,23 @@
 
 .services__wrapper-slim {
   background-color: $special-light-grey;
+  box-sizing: border-box;
+  padding: 18px;
+  margin-top: 22px;
+  min-height: 288px;
+  position: relative;
+
+  &::before {
+    content: "";
+  }
 }
 
 .services__wrapper-pro {
   background-color: $special-light-grey;
+  padding: 18px;
+  margin-top: 22px;
+  min-height: 288px;
+  box-sizing: border-box;
 }
 
 .services__header {
@@ -24,12 +39,16 @@
   font-size: 24px;
   line-height: 37px;
   font-weight: $base-font-size;
+  margin: 0;
+  margin-left: 93px;
+  padding: 39px 0;
 }
 
 .services__text {
   font-family: $font-arial;
   color: $special-dark-grey;
   border-bottom: $grey-bg-1 solid 1pt;
+  padding-bottom: 20px;
 }
 
 .services__link {
